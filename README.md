@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# Presentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First of all, I would like to say that this challenge made me a lot happier because I could use it as an opportunity to learn new things, improve others and practice coding.
 
-## Available Scripts
+Thank you all for this nourishing opportunity.
 
-In the project directory, you can run:
+# Decisions
 
-### `npm start`
+My first approach was based on researching existing examples to better understand the challenge. I found this website: https://pokeapi.webflow.io/ which gave me an idea of how to start.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+After that, I looked inside the poke API docs to understand the structure of the request and the available endpoints.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Then I started mentally wireframing the structure of the challenge, such as header, search bar, card, pagination, and footer, based on the website that I found earlier and other pokemon styled websites.
 
-### `npm test`
+I've started writing the header, input, the custom hooks, took a coffee, and the context. I was able to finally fetch data and show it in the front.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instanced the pagination after that, refactored a lot of the code overall, and then started to research Unit Testing, because I'm currently studying it. I even wrote a simple test, for the Footer component, but I understand that I need to invest more effort in learning Unit Testing.
 
-### `npm run build`
+In this project I start it fetching data, setting it in the context, and then showing it in the front. Then the user can do two actions, which are using the input to search a pokemon by ID or exact name or using the pagination at the bottom to loop through other Pokemon.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Conclusion
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Independent of the feedback, I just have to say that I enjoyed going through this challenge, I drank lots of coffee which gave me sleeplessness but in the end, it was worth it :)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thank you all,
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Mauricio Akito Kitazawa A.K.A Kita.
