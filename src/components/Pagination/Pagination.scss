@@ -1,0 +1,25 @@
+.paginationContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 0 4rem 0;
+}
+
+.paginationButton {
+
+}
+
+.paginationList {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+    padding-left: 0;
+    gap: 2rem;
+
+    li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+}

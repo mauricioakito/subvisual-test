@@ -1,0 +1,17 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.headerLogo {
+    max-width: 200px;
+}
+
+.topbar {
+    background: #313131;
+    padding: 1rem 0;
+    color: #fff;
+}
